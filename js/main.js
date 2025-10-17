@@ -456,11 +456,11 @@ $(window).on('load', () => {
 
 
 
-    let token = '5609523715:AAGye814_ViAyw36Yb7W0Shf8CA1cJ-TkgU'
-    let chatId = '-780709159'
+    let token = ''
+    let chatId = ''
     let lang = $('html').attr('lang')
     let project = 'NRG QORASUV'
-    let GOOGLE_TABLE = 'https://script.google.com/macros/s/AKfycbyqI3kSWn3D8DEdliUAlGzCSzZ854kgBH_U1LTJgJH7RGv41Ii6kul0xmZryNrRcRVB/exec'
+    let GOOGLE_TABLE = ''
     const newURL = currentURL + "#success"
 
 
@@ -581,5 +581,6 @@ $(window).on('load', () => {
 
        
     })
+
 
 })
